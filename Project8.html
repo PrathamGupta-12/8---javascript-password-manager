@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="Project8.css">
+</head>
+<body>
+
+<h1>Password Manager</h1>
+
+<form>
+
+    <input
+        type="text"
+        id="website"
+        placeholder="Website"
+    >
+
+    <br><br>
+
+    <input
+        type="text"
+        id="username"
+        placeholder="Username / Email"
+    >
+
+    <br><br>
+
+    <input
+        type="password"
+        id="password"
+        placeholder="Password"
+    >
+
+    <br><br>
+
+    <button id="addPasswordBtn">
+        Save Password
+    </button>
+
+</form>
+
+<hr>
+
+<input
+    type="text"
+    id="searchWebsite"
+    placeholder="Search Website"
+>
+
+<hr>
+
+<h3>Statistics</h3>
+
+<p>Total Passwords:
+<span id="totalPasswords">0</span></p>
+
+<p>Strong Passwords:
+<span id="strongPasswords">0</span></p>
+
+<p>Medium Passwords:
+<span id="mediumPasswords">0</span></p>
+
+<p>Weak Passwords:
+<span id="weakPasswords">0</span></p>
+
+
+
+
+<hr>
+
+<h3>Password List</h3>
+
+<div id="passwordList"></div>
+
+<script src="Project8.js"></script>
+
+</body>
+</html>
